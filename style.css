@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 175px;
+    height: 50px;
+    margin: 45px auto 0 auto;
+}
+
+.logo > i {
+    background-image: url("https://static.cdninstagram.com/rsrc.php/v3/yK/r/ATdtiLb2BQ9.png");
+    background-position: 0px 0px;
+    background-size: 176px 181px;
+    width: 175px;
+    height: 51px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.login > form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 40px auto 0 auto;
+    padding: 10px 40px;
+}
+
+input[type="text"], input[type="password"] {
+    height: 35px;
+    border: 1px solid #dbdbdb;
+    margin: 5px 0;
+    background: #fafafa;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+button {
+    border-radius: 3px;
+    height: 30px;
+}
+
+.login-btn {
+    background: #68B5FA;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    margin: 14px 0;
+    font-weight: 700;
+}
+
+.other-options {
+    display: flex;
+    flex-direction: row;
+    margin: 23px 0 32px 0;
+    justify-content:space-between;
+}
+
+.other-options > .line {
+    width: 42%;
+    height: .5px;
+    background: #dbdbdb;
+    border: .1px solid #dbdbdb;
+}
+
+.other-options > .or {
+    line-height: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: gray;
+}
+
+a.facebook-login {
+    text-align: center;
+    text-decoration: none;
+    color: #385185;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+a.forgot-pwd {
+    color: #02376B;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+p.no-account {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.no-account span {
+    color: #1096F6;
+    font-weight: 500;
+}
+
+.get-app {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.app-downloads {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.app-downloads a img {
+    height: 40px;
+}
