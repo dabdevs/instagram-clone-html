@@ -13,7 +13,8 @@ body {
 .logo {
     width: 175px;
     height: 50px;
-    margin: 45px auto 0 auto;
+    margin: 45px auto;
+    cursor: pointer;
 }
 
 .logo > i {
@@ -112,7 +113,8 @@ p.no-account {
 }
 
 .app-downloads {
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -121,4 +123,10 @@ p.no-account {
 
 .app-downloads a img {
     height: 40px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 875px) {
+    .login > form {
+        border: 1px solid #dbdbdb;
+    }
 }
