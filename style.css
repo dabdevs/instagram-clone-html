@@ -19,7 +19,6 @@ main {
 }
 
 section.phone-wallpaper {
-    height: 580px;
     padding: 20px 0;
     margin: 0;
     display: none;
@@ -145,7 +144,7 @@ p.no-account {
 }
 
 .app-downloads a img {
-    width: 140px;
+    width: 100px;
     height: 40px;
 }
 
@@ -189,9 +188,14 @@ p.no-account {
         margin: 0 auto;
         margin-top: 10px;
     }
+    .app-downloads a img {
+        width: 140px;
+    }
     
     section.phone-wallpaper {
+        height: 580px;
         display: block;
+        position: relative;
     }
 
     .logo {
@@ -204,5 +208,13 @@ p.no-account {
 
     .get-app {
         margin-top: 20px;
+    }
+
+    img.slide {
+        width: 250px;
+        position: absolute;
+        right: 19px;
+        top: 47px;
+        height: 533px;
     }
 }
