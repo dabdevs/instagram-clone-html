@@ -222,7 +222,28 @@ footer > .credits > div > select {
     padding-right: 0;
 }
 
-@media only screen and (min-width: 450px) and (max-width: 875px) {
+/* Mobile view */
+@media only screen and (max-width: 450px) {
+    section.login {
+        padding: 0;
+    }
+
+    section.phone-wallpaper {
+        display: none;
+    }
+
+    .app-downloads a img {
+        width: 120px;
+    }
+
+    section.login>form,
+    p.no-account {
+        border: none;
+    }
+}
+
+/* Small screen */
+@media only screen and (min-width: 451px) and (max-width: 875px) {
     section.login {
         padding: 5px;
     }
@@ -245,23 +266,5 @@ footer > .credits > div > select {
         width: 80%;
         margin: 0 auto;
         margin-top: 10px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    section.login {
-        padding: 0;
-    }
-
-    section.phone-wallpaper {
-        display: none;
-    }
-
-    .app-downloads a img {
-        width: 120px;
-    }
-
-    section.login > form, p.no-account {
-        border: none;
     }
 }
